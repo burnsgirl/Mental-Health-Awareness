@@ -87,3 +87,49 @@ section::before {
         background:none;
         z-index: 0;
 }
+
+#section3 {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(86, 145, 255);
+}
+
+#breaker {
+    min-height: 10px;
+    background-color: rgb(86, 145, 255);
+}
+
+/* #brea::before {
+    content:'';
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top,  rgb(86, 145, 255), transparent );
+    z-index: 10;
+} */
+
+.cards {
+    width: 400px;
+    height: 600px;
+    margin: 20px;
+    border-radius: 2rem;
+    background-color: white;
+}
+
+img {
+    width: 350px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 2rem;
+}
+
+.cards p {
+    margin: 0px 20px;
+}
+
+.cards h3 {
+    font-size:30px;
+}
+
