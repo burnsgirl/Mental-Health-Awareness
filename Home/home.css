@@ -19,6 +19,11 @@ section {
     min-height:100vh;
 }
 
+#coverImage {
+    display: flex;
+    flex-direction: column;
+}
+
 #cover {
     margin: 0px;
     font-size: 400px;
@@ -27,6 +32,19 @@ section {
     letter-spacing: -40px;
     color:white;
     text-align: center;
+}
+
+#cover2 {
+    margin: 0px;
+    font-size: 74px;
+    line-height: 249px;
+    font-weight: 375;
+    letter-spacing: -4px;
+    color: white;
+    text-align: center;
+    position: fixed;
+    top: 515px;
+    left: 50px;
 }
 
 .list {
@@ -92,6 +110,7 @@ section::before {
     display: flex;
     flex-direction: row;
     background-color: rgb(86, 145, 255);
+    justify-content: center;
 }
 
 #breaker {
@@ -139,6 +158,13 @@ footer {
     height: 20vh;
     position: absolute;
     padding: 15px 0px;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 5%;
 }
 
 #footerList {
