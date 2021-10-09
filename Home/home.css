@@ -1,0 +1,56 @@
+body {
+    font-family: 'Changa', sans-serif;
+    background-color: rgb(86, 145, 255);
+}
+
+h3 {
+    margin: 0px;
+    text-align: center;
+}
+
+#title {
+    font-size: 50px;
+    margin: 0px;
+}
+
+section {
+    position: relative;
+    width:100%;
+    min-height:100vh;
+}
+
+#cover {
+    margin: 0px;
+    font-size: 400px;
+    line-height: 249px;
+    font-weight: 375;
+    letter-spacing: -40px;
+    color:white;
+    text-align: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 80px;
+    padding: 0px;
+    justify-content: flex-end;
+}
+
+.nav {
+    list-style: none;
+    background-color: rgb(86, 145, 255);
+    border-radius: 2rem;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    color: white;
+    margin: 5px;
+    border: 5px solid white;
+}
+
+#font {
+    display: flex;
+    position: fixed;
+    top: 100px;
+}
