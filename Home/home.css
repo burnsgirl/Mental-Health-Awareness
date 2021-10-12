@@ -136,6 +136,7 @@ section::before {
     border-radius: 2rem;
     background-color: white;
     color: #637273;
+    font-family: 'Karla', sans-serif;
 }
 
 img {
@@ -146,7 +147,7 @@ img {
 }
 
 .cards p {
-    margin: 0px 20px;
+    margin: 10px 20px;
 }
 
 .cards h3 {
@@ -189,7 +190,8 @@ button {
     background-color: transparent;
 /*     color:rgb(86, 145, 255); */
     color: #637273;
-    font-family: 'Changa', sans-serif;
+/*     font-family: 'Changa', sans-serif; */
+    font-family: 'Karla', sans-serif;
 /*     border: 3px solid rgb(86, 145, 255); */
     border: 3px solid #637273;
     /* border:0px; */
