@@ -6,6 +6,7 @@
 
 
 ## Description
+Mental health awareness and suicide are seen as a something that is shunned upon in our society and it needs to change. This site was designed for the purpose of gaining mental health awareness, the seriousness of depression, and noticing the signs of suicide and how to talk to your loved ones about it.
 
 
 ## Table of Contents
