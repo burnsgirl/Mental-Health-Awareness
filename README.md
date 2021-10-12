@@ -2,7 +2,7 @@
 
 ![Github License](https://img.shields.io/badge/license-none-blue.svg)
 
-[Deployed]   |    [Repo](https://github.com/mliemann/1st-Party-Business-App)
+[Deployed]   |    [Repo](https://github.com/burnsgirl/Mental-Health-Awareness/)
 
 
 ## Description
