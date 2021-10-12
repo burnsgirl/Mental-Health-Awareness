@@ -24,7 +24,7 @@ Mental health awareness and suicide are seen as a something that is shunned upon
 No installation needed.
 
 ## Usage
-
+Gain awareness and knowledge into mental health and how to speak to loved ones about it.
 
 ## Technologies
 Technologies used: React, JavaScript, HTML, CSS
