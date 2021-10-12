@@ -135,6 +135,7 @@ section::before {
     margin: 20px;
     border-radius: 2rem;
     background-color: white;
+    color: #637273;
 }
 
 img {
@@ -186,9 +187,11 @@ button {
     height: 40px;
     border-radius: 2rem;
     background-color: transparent;
-    color:rgb(86, 145, 255);
+/*     color:rgb(86, 145, 255); */
+    color: #637273;
     font-family: 'Changa', sans-serif;
-    border: 3px solid rgb(86, 145, 255);
+/*     border: 3px solid rgb(86, 145, 255); */
+    border: 3px solid #637273;
     /* border:0px; */
 }
 
