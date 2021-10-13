@@ -138,7 +138,7 @@ section::before {
     border-radius: 2rem;
     background-color: white;
     color: #637273;
-    font-family: 'Karla', sans-serif;
+    font-family: 'Cairo', sans-serif;
 }
 
 img {
@@ -193,7 +193,7 @@ button {
 /*     color:rgb(86, 145, 255); */
     color: #637273;
 /*     font-family: 'Changa', sans-serif; */
-    font-family: 'Karla', sans-serif;
+    font-family: 'Cairo', sans-serif;
 /*     border: 3px solid rgb(86, 145, 255); */
     border: 3px solid #637273;
     /* border:0px; */
@@ -205,7 +205,6 @@ button:hover {
 }
 
 #cardBtn {
-    margin: 15px 0px;
     margin-left: 250px;
 }
 
