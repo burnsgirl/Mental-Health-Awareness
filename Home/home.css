@@ -4,13 +4,17 @@ body {
 }
 
 h3 {
-    margin: 0px;
-    text-align: center;
+    margin: 0px 50px;
+    font-size: 30px;
 }
 
 #title {
     font-size: 50px;
     margin: 0px;
+}
+
+.copyP {
+    margin: 0px 50px;
 }
 
 section {
