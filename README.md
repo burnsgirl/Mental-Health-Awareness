@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,42 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# Mental-Health-Awareness
+
+![Github License](https://img.shields.io/badge/license-none-blue.svg)
+
+[Deployed]   |    [Repo](https://github.com/burnsgirl/Mental-Health-Awareness/)
+
+
+## Description
+Mental health awareness and suicide are seen as a something that is shunned upon in our society and it needs to change. This site was designed for the purpose of gaining mental health awareness, the seriousness of depression, and noticing the signs of suicide and how to talk to your loved ones about it.
+
+
+## Table of Contents
+[Installation](#installation)
+
+[Usage](#usage)
+
+[Technologies Used](#technologies)
+
+[License](#license)
+
+[Contact](#contact)
+
+## Installation
+No installation needed.
+
+## Usage
+Gain awareness and knowledge into mental health and how to speak to loved ones about it.
+
+## Technologies
+Technologies used: React, JavaScript, HTML, CSS
+
+## License
+License: None
+
+## Contact
+Contact: 
+dauphineburns@gmail.com
+>>>>>>> 4bd2fd1a0f8fb6c5a4ee423400fbee1463fb34c6
