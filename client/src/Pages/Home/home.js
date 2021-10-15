@@ -6,6 +6,8 @@ function Home() {
 
     return (
 
+        <div>
+
         <section id="coverImage">
             <div>
                 <ul class="list">
@@ -70,6 +72,8 @@ function Home() {
             </div>
             <h3>© The Developer Group</h3>
         </footer>
+
+        </div>
         );
     }
     
