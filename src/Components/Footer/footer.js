@@ -40,7 +40,7 @@ function Footer() {
                     </li>       
                     </ul>
                 </div>
-                <h3>© The Developer Group</h3>
+                <h3 id="llc">© The Developer Group</h3>
         </footer>
 
     );

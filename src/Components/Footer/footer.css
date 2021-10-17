@@ -16,13 +16,20 @@ footer {
 #footerList {
     /* justify-content: center; */
     justify-content: flex-end;
+    margin: 0px 60px;
 }
 
 #phoneNumber {
     display: flex;
     justify-content: flex-start;
+    font-size: 20px;
 }
 
 footer h3 {
     color: white;
+}
+
+#llc {
+    text-align: center;
+    padding-bottom: 30px;
 }
