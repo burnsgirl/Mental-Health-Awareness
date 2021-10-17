@@ -126,12 +126,12 @@ section::before {
     font-family: 'Cairo', sans-serif;
 }
 
-img {
+/* img {
     width: 350px;
     height: 200px;
     padding: 20px;
     border-radius: 2rem;
-}
+} */
 
 .cards p {
     margin: 10px 20px;
@@ -166,3 +166,24 @@ button:hover {
     margin-left: 250px;
 }
 
+.img {
+    background-size: cover;
+    /* width: 350px; */
+    height: 250px;
+    /* padding: 20px; */
+
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+}
+
+#img1 {
+    background-image: url("../Assets/get-help.jpeg");
+}
+
+#img2 {
+    background-image: url("../Assets/warning-signs.jpeg");
+}
+
+#img3 {
+    background-image: url("../Assets/how-to-help.jpeg");
+}

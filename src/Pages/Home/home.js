@@ -33,21 +33,24 @@ function Home() {
 
         <section id="section3">
             <div class="cards">
-                <img src="Assets/tom-the-photographer-ByqC3ko_sQY-unsplash.jpeg"></img>
+                {/* <img src="Assets/get-help.jpeg"></img> */}
+                <div className="img" id="img1"></div>
                 <h3>Get Help</h3>
                 <p> No matter what problems you’re dealing with, whether or not you’re thinking about suicide, if you need someone to lean on for emotional support, call the Lifeline. If you’re thinking about suicide, are worried about a friend or loved one, or would like emotional support, click here for more information.</p>
                 <button id="cardBtn">Go</button>
             </div>
 
             <div class="cards">
-                <img src="Assets/anthony-tran-vXymirxr5ac-unsplash.jpeg"></img>
+                {/* <img src="src/Pages/Assets/warning-signs.jpeg"></img> */}
+                <div className="img" id="img2"></div>
                 <h3>Warning Signs</h3>
                 <p>Risk factors are characteristics that make it more likely that someone will consider, attempt, or die by suicide. They can't cause or predict a suicide attempt, but they're important to be aware of. Find out more here.</p>
                 <button id="cardBtn">Go</button>
             </div>
             
             <div class="cards">
-                <img src="Assets/priscilla-du-preez-F9DFuJoS9EU-unsplash.jpeg"></img>
+                {/* <img src="Assets/how-to-help.jpeg"></img> */}
+                <div className="img" id="img3"></div>
                 <h3>How To Help</h3>
                 <p>Everybody has a role to play in preventing suicide, and there are lots of ways you can take part. With your help, we can spread awareness about suicide prevention and mental health, and save lives. Find out more here.</p>
                 <button id="cardBtn">Go</button>
