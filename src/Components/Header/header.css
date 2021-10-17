@@ -18,3 +18,8 @@
     border: 5px solid white;
     text-decoration: none;
 }
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}

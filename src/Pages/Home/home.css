@@ -164,6 +164,12 @@ button:hover {
     border:3px solid orange;
 }
 
+.nav-link:hover {
+    color:orange;
+    font-weight:bold;
+    font-size:20px;
+}
+
 .btnDiv {
     display: flex;
     justify-content: right;
