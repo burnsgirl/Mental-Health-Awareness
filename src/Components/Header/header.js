@@ -12,14 +12,22 @@ function Header() {
  <div>
  <ul class="list">
      <li class="nav" >
-     <Link
-          to="/"
-          className={location.pathname === "/" ? "nav-link active" : "nav-link"}
-        >
+        <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
           Home
-        </Link></li>
-     <li class="nav" >About</li>
-     <li class="nav" >Resources</li>
+        </Link>
+    </li>
+
+     <li class="nav">
+         <Link to="/about" className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>
+          About
+        </Link>
+    </li>
+
+     <li class="nav" >
+        <Link to="/resources" className={location.pathname === "/resources" ? "nav-link active" : "nav-link"}>
+          Resources
+        </Link>
+     </li>
 
      <li class="nav">
         <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
