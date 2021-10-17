@@ -16,7 +16,7 @@ function Contact() {
             </div>
 
             <label className="title" htmlFor="fname">
-                First Name:
+                Name:
             </label>
 
             <input
@@ -25,18 +25,6 @@ function Contact() {
                 id="fname"
                 name="firstname"
                 placeholder="your name..."
-            ></input>
-
-            <label className="title" htmlFor="lname">
-                Last Name:
-            </label>
-
-            <input
-                className="inputContact"
-                type="text"
-                id="lname"
-                name="lastname"
-                placeholder="your last name..."
             ></input>
 
             <label className="title" htmlFor="lname">
@@ -60,7 +48,7 @@ function Contact() {
                 type="text"
                 id="phoneNumber"
                 name="phonenumber"
-                placeholder="your email..."
+                placeholder="your phone number..."
             ></input>
 
             <label className="title" htmlFor="subject">
