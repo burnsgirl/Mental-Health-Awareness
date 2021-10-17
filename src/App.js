@@ -3,6 +3,7 @@ import './App.css';
 import Home from "./Pages/Home/home";
 import Contact from "./Pages/Contact/ contact";
 import Header from "./Components/Header/header";
+import Footer from "./Components/Footer/footer";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
       <Route exact path="/contact" component={Contact} />
 
       </Switch>
-      {/* <Footer /> */}
+      <Footer />
 
     </Router>
   );
