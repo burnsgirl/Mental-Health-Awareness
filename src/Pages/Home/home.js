@@ -10,14 +10,7 @@ function Home() {
         <div>
 
         <section id="coverImage">
-            <div>
-                <ul class="list">
-                    <li class="nav" href="#">Home</li>
-                    <li class="nav" href="#">About</li>
-                    <li class="nav" href="#">Resources</li>
-                    <li class="nav" href="#">Contact Us</li>     
-                </ul>
-            </div>
+           
             <div id="font">
                 <h1 id="cover">MENTAL<br></br>HEALTH</h1><br></br>
             </div>
