@@ -205,3 +205,13 @@ button:hover {
 #img3 {
     background-image: url("../Assets/how-to-help.jpeg");
 }
+
+.nav-link-footer {
+    text-decoration: none;
+    color:#637273;
+    font-weight: bold;
+}
+
+/* .nav-link-footer:hover {
+    color: orange;
+} */

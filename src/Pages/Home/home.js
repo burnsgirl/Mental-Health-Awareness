@@ -1,9 +1,11 @@
 import { React } from "react";
 import "./home.css";
-
+import { Link, useLocation } from "react-router-dom";
 
 
 function Home() {
+
+    const location = useLocation();
 
     return (
 
@@ -38,7 +40,11 @@ function Home() {
                 <h3>Get Help</h3>
                 <p> No matter what problems you’re dealing with, whether or not you’re thinking about suicide, if you need someone to lean on for emotional support, call the Lifeline. If you’re thinking about suicide, are worried about a friend or loved one, or would like emotional support, click here for more information:</p>
                 <div id="cardBtn1">
-                <button>Go</button>
+                <button>
+                    <Link to="/get-help" className={location.pathname === "/get-help" ? "nav-link-footer active" : "nav-link-footer"}>
+                    Go
+                    </Link>
+                </button>
                 </div>
             </div>
 
@@ -48,7 +54,11 @@ function Home() {
                 <h3>Warning Signs</h3>
                 <p>Risk factors are characteristics that make it more likely that someone will consider, attempt, or die by suicide. They can't cause or predict a suicide attempt, but they're important to be aware of. Find out more here:</p>
                 <div className="btnDiv">
-                <button>Go</button>
+                <button>
+                    <Link to="/warning-signs" className={location.pathname === "/warning-sings" ? "nav-link-footer active" : "nav-link-footer"}>
+                    Go
+                    </Link>
+                </button>
                 </div>
             </div>
             
@@ -58,7 +68,11 @@ function Home() {
                 <h3>How To Help</h3>
                 <p>Everybody has a role to play in preventing suicide, and there are lots of ways you can take part. With your help, we can spread awareness about suicide prevention and mental health, and save lives. Find out more here:</p>
                 <div className="btnDiv">
-                <button>Go</button>
+                <button>
+                    <Link to="/how-to-help" className={location.pathname === "/how-to-help" ? "nav-link-footer active" : "nav-link-footer"}>
+                    Go
+                    </Link>
+                </button>
                 </div>
             </div>
         </section>
