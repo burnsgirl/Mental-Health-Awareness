@@ -10,7 +10,7 @@ h3 {
 
 #title {
     font-size: 50px;
-    margin: 0px;
+    margin: 0px 24px;
 }
 
 .copyP {
@@ -36,6 +36,9 @@ section {
     letter-spacing: -40px;
     color:white;
     text-align: center;
+    position: fixed;
+    left: 287px;
+    top: 111px;
 }
 
 #cover2 {
@@ -47,17 +50,18 @@ section {
     color: white;
     text-align: center;
     position: fixed;
+    justify-content: center;
     top: 515px;
     left: 50px;
 }
 
 
 
-#font {
-    display: flex;
+/* #font {
+    
     position: fixed;
     top: 100px;
-}
+} */
 
 .copy {
     position: relative;
@@ -215,3 +219,90 @@ button:hover {
 /* .nav-link-footer:hover {
     color: orange;
 } */
+
+@media screen and (max-width:1500px) {
+    #cover {
+        left: 185px;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    #cover {
+        left: 100px;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    #cover {
+        left: 60px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    #cover {
+        left: 5px;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    #cover {
+        left: 47px;
+        font-size: 350px;
+        line-height: 217px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    #cover {
+        left: -6px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    #cover {
+        left: 30px;
+        font-size: 300px;
+        line-height: 187px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    #cover {
+        left: 61px;
+    font-size: 250px;
+    line-height: 154px;
+    letter-spacing: -30px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    #cover {
+        left: -9px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    #cover {
+        left: 30px;
+        font-size: 200px;
+        line-height: 126px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    #cover {
+        left: 12px;
+        font-size: 180px;
+        line-height: 109px;
+        letter-spacing: -26px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    #cover {
+        left: 12px;
+        font-size: 180px;
+        line-height: 109px;
+        letter-spacing: -26px;
+    }
+}

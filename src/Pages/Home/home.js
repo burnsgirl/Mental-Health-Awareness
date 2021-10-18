@@ -19,6 +19,7 @@ function Home() {
             <div>
                 <h3 id="cover2">AWARENESS AND SUICIDE PREVENTION</h3>
             </div>
+            
         </section>
 
        <section class="copy">

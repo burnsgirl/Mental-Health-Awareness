@@ -9,7 +9,7 @@ function Header() {
 
     return (
 
- <div>
+ <div id="header">
  <ul class="list">
      <li class="nav" >
         <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
