@@ -52,7 +52,7 @@ section {
     position: fixed;
     justify-content: center;
     top: 515px;
-    left: 50px;
+    left: 325px;
 }
 
 
@@ -224,11 +224,19 @@ button:hover {
     #cover {
         left: 185px;
     }
+
+    #cover2 {
+        left: 225px;
+    }
 }
 
 @media screen and (max-width:1400px) {
     #cover {
         left: 100px;
+    }
+
+    #cover2 {
+        left: 132px;
     }
 }
 
@@ -236,11 +244,21 @@ button:hover {
     #cover {
         left: 60px;
     }
+
+
+    #cover2 {
+        left: 105px;
+    }
 }
 
 @media screen and (max-width:1200px) {
     #cover {
         left: 5px;
+    }
+
+    #cover2 {
+        left: 81px;
+        font-size: 68px;
     }
 }
 
@@ -250,11 +268,23 @@ button:hover {
         font-size: 350px;
         line-height: 217px;
     }
+
+    #cover2 {
+        left: 42px;
+        font-size: 68px;
+        line-height: 249px;
+    }
 }
 
 @media screen and (max-width:1000px) {
     #cover {
         left: -6px;
+    }
+
+    #cover2 {
+        left: 67px;
+        font-size: 58px;
+        line-height: 136px;
     }
 }
 
@@ -262,7 +292,12 @@ button:hover {
     #cover {
         left: 30px;
         font-size: 300px;
-        line-height: 187px;
+        line-height: 185px;
+    }
+
+    #cover2 {
+        line-height: 48px;
+        left: 20px;
     }
 }
 
@@ -273,11 +308,19 @@ button:hover {
     line-height: 154px;
     letter-spacing: -30px;
     }
+
+    #cover2 {
+        top: 433px;
+    }
 }
 
 @media screen and (max-width:700px) {
     #cover {
         left: -9px;
+    }
+
+    #cover2 {
+        left: -23px;
     }
 }
 
@@ -287,14 +330,11 @@ button:hover {
         font-size: 200px;
         line-height: 126px;
     }
-}
 
-@media screen and (max-width:500px) {
-    #cover {
-        left: 12px;
-        font-size: 180px;
-        line-height: 109px;
-        letter-spacing: -26px;
+    #cover2 {
+        left: -23px;
+        font-size: 48px;
+        top: 364px;
     }
 }
 
@@ -305,4 +345,18 @@ button:hover {
         line-height: 109px;
         letter-spacing: -26px;
     }
+
+    #cover2 {
+        top: 339px;
+        line-height: 46px;
+    }
 }
+
+/* @media screen and (max-width:500px) {
+    #cover {
+        left: 12px;
+        font-size: 180px;
+        line-height: 109px;
+        letter-spacing: -26px;
+    }
+} */
