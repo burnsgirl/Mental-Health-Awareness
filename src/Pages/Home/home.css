@@ -155,18 +155,25 @@ button:hover {
     font-size:20px;
 }
 
-.btnDiv {
-    display: flex;
-    justify-content: right;
-    margin-right: 50px;
-    margin-top: 80px;
-}
-
 #cardBtn1 {
     display: flex;
     justify-content: right;
     margin-right: 50px;
     margin-top: 40px;
+}
+
+#cardBtn2 {
+        display: flex;
+        justify-content: right;
+        margin-right: 50px;
+        margin-top: 80px;
+}
+
+#cardBtn3 {
+    display: flex;
+    justify-content: right;
+    margin-right: 50px;
+    margin-top: 80px;
 }
 
 .img {
@@ -271,6 +278,24 @@ button:hover {
         font-size: 58px;
         line-height: 136px;
     }
+
+    #cardBtn1 {
+        justify-content: center;
+        margin-right:0px;
+        margin-top: -13px;
+    }
+
+    #cardBtn2 {
+        justify-content: center;
+        margin-top: -11px;
+        margin-right:0px;
+    }
+
+    #cardBtn3 {
+        justify-content: center;
+        margin-top: 65px;
+        margin-right:0px;
+    }
 }
 
 @media screen and (max-width:900px) {
@@ -293,6 +318,14 @@ button:hover {
     .cards {
         width:600px;
         height:500px;
+    }
+
+    #cardBtn2 {
+        margin-top: 11px;
+    }
+
+    #cardBtn3 {
+        margin-top: 4px;
     }
 }
 
@@ -317,6 +350,8 @@ button:hover {
     #cover2 {
         left: -23px;
     }
+
+    
 }
 
 @media screen and (max-width:600px) {
@@ -335,6 +370,10 @@ button:hover {
     .cards {
         width:400px;
         height:550px;
+    }
+
+    #cardBtn1 {
+        margin-top: -28px;
     }
 }
 

@@ -54,7 +54,7 @@ function Home() {
                 <div className="img" id="img2"></div>
                 <h3>Warning Signs</h3>
                 <p>Risk factors are characteristics that make it more likely that someone will consider, attempt, or die by suicide. They can't cause or predict a suicide attempt, but they're important to be aware of. Find out more here:</p>
-                <div className="btnDiv">
+                <div id="cardBtn2">
                 <button>
                     <Link to="/warning-signs" className={location.pathname === "/warning-sings" ? "nav-link-footer active" : "nav-link-footer"}>
                     Go
@@ -68,7 +68,7 @@ function Home() {
                 <div className="img" id="img3"></div>
                 <h3>How To Help</h3>
                 <p>Everybody has a role to play in preventing suicide, and there are lots of ways you can take part. With your help, we can spread awareness about suicide prevention and mental health, and save lives. Find out more here:</p>
-                <div className="btnDiv">
+                <div id="cardBtn3">
                 <button>
                     <Link to="/how-to-help" className={location.pathname === "/how-to-help" ? "nav-link-footer active" : "nav-link-footer"}>
                     Go
